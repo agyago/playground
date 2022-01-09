@@ -2,7 +2,7 @@ import re
 
 pattern=r"(^[\d.]+).*\[([(\d)/\w:\s+]+)\].*HTTP/1.1\".(\d{3}).(\d*).\"([\w://.-]+)"
 result={}
-with open('examplelogs') as file:
+with open('apache_test_logs') as file:
     for line in file:
         search=re.match(pattern,line)
         if search[3] == '200':
