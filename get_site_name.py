@@ -13,4 +13,4 @@ with open('apache_test_logs') as file:
 
 print(result)
 #{'83.149.9.216': {'http://semicomplete.com/presentations/logstash-monitorama-2013/', 'http://google.com/'}, 
-  '83.149.9.200': {'http://google.com/'}}
+# '83.149.9.200': {'http://google.com/'}}
